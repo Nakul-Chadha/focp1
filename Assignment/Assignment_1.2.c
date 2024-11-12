@@ -1,3 +1,4 @@
+//WAP to get 2 no. from user and find their HCF(highest common factor)
 #include<stdio.h>
 void factor(int no, int cnt[])
 {
