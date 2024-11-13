@@ -1,23 +1,24 @@
 //WAP to get 2 no. from user and find their HCF(highest common factor)
-#include<stdio.h>
-void factor(int no, int cnt[])
+#include <stdio.h>
+
+int main()
 {
-    for(int i=2;i<no/2;i++)
+    int i, num1, num2, min, hcf=1;
+
+    printf("Enter any two numbers to find HCF: ");
+    scanf("%d", &num1);
+    scanf("%d", &num2);
+    min = (num1<num2) ? num1 : num2;
+
+    for(i=1; i<=min; i++)
     {
-
+        if(num1%i==0 && num2%i==0)
+        {
+            hcf = i;
+        }
     }
-}
-void main()
-{
-    int no1,no2;
-    printf("Enter the first no. : ");
-    scanf("%d",&no1);
-    printf("Enter the second no. : ");
-    scanf("%d",&no2);
 
-    int cnt_no1[]={0};
-    int cnt_no2[]={0};
+    printf("HCF of %d and %d = %d\n", num1, num2, hcf);
 
-    factor(no1,cnt_no1);
-    factor(no2,cnt_no2);     
+    return 0;
 }
