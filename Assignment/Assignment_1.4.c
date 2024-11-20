@@ -42,5 +42,8 @@ int main()
     scanf("%d",&no1);
     scanf("%d",&no2);
     printf("Two no. entered by the user are : %d and %d",no1,no2);
+    temp_swap(no1,no2);
+    add_swap(no1,no2);
     bitwise_swap(no1,no2);
+    multiply_swap(no1,no2);
 }
