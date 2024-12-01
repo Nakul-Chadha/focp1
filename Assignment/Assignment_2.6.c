@@ -1,3 +1,4 @@
+//WAP to find average score of the Marks array
 #include<stdio.h>
 int main()
 {

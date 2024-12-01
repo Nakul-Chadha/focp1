@@ -1,3 +1,4 @@
+//WAP to find Who & how many students have scored 99 in an array Marks
 #include<stdio.h>
 int main()
 {

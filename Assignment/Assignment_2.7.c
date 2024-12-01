@@ -1,4 +1,4 @@
-//WAP to find who scored first “99” in an array marks
+//WAP to check whether score is even or odd in an array
 #include<stdio.h>
 int main()
 {
@@ -19,18 +19,15 @@ int main()
     {
         printf("Student marks : %d\n",Marks[i]);
     }
-    int cnt=0;
     for(int i=0;i<a;i++)
     {
-        if(Marks[i]==99)
+        if(Marks[i]%2==0)
         {
-            printf("Student %d has scored 99",i++);
-            cnt++;
-            break;
+            printf("The scored marks is even\n");
         }
-    }
-    if (cnt==0)
-    {
-        printf("No one scored 99");
+        else
+        {
+            printf("The scored marks is odd\n");
+        }
     }
 }

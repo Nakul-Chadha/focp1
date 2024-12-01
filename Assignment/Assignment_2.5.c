@@ -1,3 +1,4 @@
+//WAP to find sum of all scores in Marks array.
 #include<stdio.h>
 int main()
 {

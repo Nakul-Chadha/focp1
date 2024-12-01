@@ -1,3 +1,4 @@
+//WAP to print grade of students as per their marks given in an array. 
 #include<stdio.h>
 int main()
 {
