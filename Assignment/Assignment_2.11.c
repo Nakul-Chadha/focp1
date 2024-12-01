@@ -44,7 +44,6 @@ int main()
             i++;
             break;
         }
-        printf("\n%d %d",inserted_Marks[i],pos);
         i++;
     }
     while(i<a+1)
