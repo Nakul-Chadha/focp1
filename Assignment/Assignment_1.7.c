@@ -1,3 +1,4 @@
+//WAP for Binary to Decimal conversion & Decimal to Binary for a given number as per user’s choice
 #include <stdio.h>
 
 int convert(int n) {

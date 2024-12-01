@@ -1,3 +1,9 @@
+/* WAP to print below mentioned pattern:
+1
+01
+101
+0101
+10101 */
 #include <stdio.h> 
 void main()
 {

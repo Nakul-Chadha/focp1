@@ -1,3 +1,4 @@
+//WAP to accept two integer numbers and swap them using 4 different methods in C language
 #include<stdio.h>
 void temp_swap(int a, int b)
 {

@@ -1,4 +1,4 @@
-
+//WAP to check whether number is Perfect Number or not
 #include <stdio.h>
 
 int main()

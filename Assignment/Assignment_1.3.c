@@ -1,3 +1,4 @@
+//WAP to subtract two integers without using Minus (-) operator
 #include <stdio.h>
 
 int adder(int a, int b) {
