@@ -23,13 +23,15 @@ int main()
     {
         if(Marks[i]==99)
         {
-            printf("Student %d has scored 99",i++);
             cnt++;
-            break;
         }
     }
     if (cnt==0)
     {
         printf("No one scored 99");
+    }
+    else
+    {
+        printf("%d no. of students scored 99",cnt);
     }
 }
