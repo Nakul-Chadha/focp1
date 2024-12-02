@@ -11,7 +11,7 @@ int main()
     for(int i=0;i<a;i++)
     {
         int b;
-        printf("\nEnter arr :");
+        printf("\nEnter element:");
         scanf("%d",&b);
         arr[i]=b;
     }
@@ -20,7 +20,7 @@ int main()
 
     for(int i=0;i<a;i++)
     {
-        printf("Student arr : %d\n",arr[i]);
+        printf(" %d\n",arr[i]);
     }
     
     int crarr[a];
@@ -40,6 +40,6 @@ int main()
     
     for(int i=0;i<a;i++)
     {
-        printf("Student arr : %d\n",crarr[i]);
+        printf("%d\n",crarr[i]);
     }
 }
